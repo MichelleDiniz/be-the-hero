@@ -1,0 +1,85 @@
+.profile-container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 120px auto;
+}
+
+.profile-container header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-container header span {
+  font-size: 20px;
+  margin-left: 24px;
+}
+
+.profile-container header .logo {
+  height: 64px;
+}
+
+.profile-container .button {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.profile-container .button-power {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  margin-left: 16px;
+  transition: border-color .2s ease-in-out;
+}
+
+.profile-container .button-power:hover {
+  border-color: #999;
+}
+
+.profile-container h1 {
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.profile-container .incidents-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.profile-container .incidents-list li {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.profile-container .incidents-list li button {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  border: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.profile-container .incidents-list li button:hover {
+  opacity: .8;
+}
+
+.profile-container .incidents-list li strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+}
+
+.profile-container .incidents-list li strong:not(:first-child) {
+  margin-top: 32px;
+}
+
+.profile-container .incidents-list li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
