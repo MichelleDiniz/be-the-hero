@@ -1,4 +1,4 @@
-# be-the-hero
+# Be the hero
 
 An aplication developed during the Semana OmniStack 11 by https://rocketseat.com.br/.
 
