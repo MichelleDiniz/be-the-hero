@@ -39,6 +39,9 @@ $ cd frontend
 $ npm start
 ```
 
+## Running migrates
+```$ npx knex migrate:latest```
+
 ## Tests
 
 ```
