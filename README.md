@@ -5,14 +5,14 @@ An aplication developed during the Semana OmniStack 11 by https://rocketseat.com
 This aplication was developed with technologies:
 - React.js
 - Node.js
-- Knex.js
+- [Knex.js](https://github.com/knex/knex)
 - SQLite3
-- Insomnia (http://insomnia.rest/)
-- Cors
-- Celebrate
-- Jest
-- cross-env
-- Supertest
+- [Insomnia](http://insomnia.rest/)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Celebrate](https://github.com/arb/celebrate)
+- [Jest](https://github.com/facebook/jest)
+- [cross-env](https://github.com/kentcdodds/cross-env)
+- [Supertest](https://github.com/visionmedia/supertest)
 
 ## Cloning this repository
 
